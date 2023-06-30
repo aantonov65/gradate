@@ -1,0 +1,53 @@
+.table__no-tasks-message {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #767676;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.table__no-tasks-message svg {
+  margin-left: 0.5rem;
+  rotate: 45deg;
+  color: #858585;
+}
+
+.table th,
+.table td {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.table th:first-of-type,
+.table td:first-of-type {
+  min-width: 500px;
+  max-width: 500px;
+}
+
+.table__task-status--completed {
+  color: #48c47c;
+}
+
+.table__task-status--pending {
+  color: rgb(231, 146, 77);
+}
+
+.table__complete-task {
+  color: #48c47c;
+  margin-right: 1rem;
+}
+
+.table__delete-task {
+  color: rgb(217, 88, 88);
+}
+
+.table__disabled {
+  color: #d1d1d1;
+}
+
+.table__disabled:hover {
+  cursor: default;
+}
